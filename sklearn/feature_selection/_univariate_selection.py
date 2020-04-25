@@ -383,7 +383,7 @@ class SelectPercentile(_BaseFilter):
         Default is f_classif (see below "See also"). The default function only
         works with classification tasks.
 
-        ..versionadded:: 0.18
+        .. versionadded:: 0.18
 
     percentile : int, optional, default=10
         Percent of features to keep.
@@ -468,7 +468,7 @@ class SelectKBest(_BaseFilter):
         Default is f_classif (see below "See also"). The default function only
         works with classification tasks.
 
-        ..versionadded:: 0.18
+        .. versionadded:: 0.18
 
     k : int or "all", optional, default=10
         Number of top features to select.
